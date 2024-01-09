@@ -1,7 +1,8 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import About from "./Components/About";
 import Navbar from "./Components/Navbar";
-import Text_input_form from "./Components/Text_input_form";
+import Text_input_form from "./Components/TextInputForm";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="container mt-5">
         <Text_input_form />
       </div>
+      {/* <About /> */}
     </>
   );
 }
